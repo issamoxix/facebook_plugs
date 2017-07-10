@@ -1,9 +1,9 @@
-// You have to creat button var and make it = to thums up button ip
-// Like : var button = "u_x_x";
+// Just Copie past the code from 6 to 24
 // that's it :D Created by Issam Haidaoui :D 
 // =============INFO====================
 // I set the first time Out to 3s and second one to 2s
 // it only work on m.facebook on browser 
+var button = document.getElementsByClassName('_527y btn btnC mfss touchable iconOnly')[0].id;
 function check(button){
 	var num_actor = document.getElementsByClassName('actor').length;
 	var x  = num_actor-1;
@@ -21,6 +21,7 @@ function check(button){
 function Repeat(){
 	setTimeout(function(){console.log('Run the Script Again !!');check(button)}, 2000)
 }
+check(button);
 // ===================================================
 // ^==============Function Keep running===============^
 // Work on Settimeout
